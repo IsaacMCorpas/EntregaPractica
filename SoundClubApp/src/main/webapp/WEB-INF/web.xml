@@ -1,0 +1,43 @@
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ResgistroServlet</servlet-name>
+  	<display-name>ResgistroServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.soundclub.controllers.ResgistroServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>LogoutServlet</display-name>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<servlet-class>com.soundclub.controllers.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>LoginServlet</display-name>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<servlet-class>com.soundclub.controllers.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>PaginaPrincipalServlet</display-name>
+  	<servlet-name>PaginaPrincipalServlet</servlet-name>
+  	<servlet-class>com.soundclub.controllers.PaginaPrincipalServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PaginaPrincipalServlet</servlet-name>
+  	<url-pattern>/PaginaPrincipalServlet</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>
